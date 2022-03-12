@@ -1,0 +1,25 @@
+.header {
+  color: white;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #0d6efd, #302b63, #0d6efd);
+  background: linear-gradient(to right, #0d6efd, #302b63, #0d6efd);
+}
+.title-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 700px) {
+  .closeAt-column-header {
+    display: none;
+  }
+  .closeAt-column {
+    display: none;
+  }
+  .openAt-column-header {
+    display: none;
+  }
+  .openAt-column {
+    display: none;
+  }
+}
